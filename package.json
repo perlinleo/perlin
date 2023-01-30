@@ -1,0 +1,27 @@
+{
+  "name": "perlin-iu5",
+  "version": "1.0.0",
+  "description": "sample description",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "npx test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perlinleo/trpo2.git"
+  },
+  "keywords": [
+    "trpo2",
+    "lab"
+  ],
+  "author": "Leonid Perlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perlinleo/trpo2/issues"
+  },
+  "homepage": "https://github.com/perlinleo/trpo2#readme",
+  "dependencies": {
+    "jest": "^29.4.1"
+  }
+}
