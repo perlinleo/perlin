@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "test": "npx test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,11 @@
     "url": "https://github.com/perlinleo/trpo2/issues"
   },
   "homepage": "https://github.com/perlinleo/trpo2#readme",
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "ts-node": "^10.9.1"
+  },
   "dependencies": {
-    "jest": "^29.4.1"
+    "typescript": "^4.9.4"
   }
 }
