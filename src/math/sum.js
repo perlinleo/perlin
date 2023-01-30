@@ -1,7 +1,7 @@
 
 
 function sum(a, b) {
-    return a + b + c + d;
+    return a + b;
 }
 
 module.exports = sum
