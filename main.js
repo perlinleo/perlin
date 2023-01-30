@@ -7,16 +7,16 @@ const sayHelloTo = (name) => {
 }
 
 class App {
-    constructor(port) {
+    constructor(port, uri) {
         this.port = port;
+        this.uri = uri;
     }
-
     start() {
         console.log(`starting web app on port ${this.port}`)
     }
 }
 
-var app = new App(1000)
+var app = new App(1000);
 
 app.start();
 
